@@ -2,7 +2,7 @@
   "name": "query2json-js",
   "version": "0.0.1",
   "description": "url解析工具",
-  "main": "index.js",
+  "main": "build/bundle.js",
   "scripts": {
     "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
