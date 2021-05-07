@@ -1,8 +1,8 @@
 {
   "name": "query2json-js",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "url解析工具",
-  "main": "build/bundle.js",
+  "main": "dist/main.js",
   "scripts": {
     "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"

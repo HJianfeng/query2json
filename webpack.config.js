@@ -3,7 +3,7 @@ module.exports = {
   mode: 'production',
   output: {
     path: __dirname,
-    filename: './build/bundle.js'
+    filename: './dist/main.js'
   },
   module: {
     rules: [{

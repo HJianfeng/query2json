@@ -6,5 +6,4 @@ function query2json(sUrl) {
   return Oparam;
 }
 
-
-export default query2json;
+module.default = query2json;
