@@ -1,0 +1,32 @@
+{
+  "name": "query2json",
+  "version": "0.0.1",
+  "description": "url解析工具",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HJianfeng/query2json.git"
+  },
+  "keywords": [
+    "url"
+  ],
+  "author": "hjf",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HJianfeng/query2json/issues"
+  },
+  "homepage": "https://github.com/HJianfeng/query2json#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-latest": "^6.24.1",
+    "webpack": "^5.36.2",
+    "webpack-cli": "^4.7.0"
+  }
+}
