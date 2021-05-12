@@ -8,9 +8,10 @@
 </head>
 <body>
 
-<script src="../build/bundle.js"></script>
-<script>
-  console.log(window);
+<script type="module">
+import query2json from '../dist/bundle.js'
+const params = query2json('http://192.168.44.25:8082/#/resource?a=1&b=3');
+console.log(params);
 </script>
 </body>
 </html>
